@@ -1,0 +1,26 @@
+'use strict';
+const path = require('path');
+
+module.exports = appInfo => {
+  const config = exports = {};
+
+  // use for cookie sign key, should change to your own and keep security
+  config.keys = appInfo.name + '_1510989026654_3778';
+
+  // add your config here
+  config.middleware = [];
+
+  config.view = {
+    mapping: {
+      '.art': 'art'
+    }
+  };
+
+  config.art = {};
+
+  config.static = {
+    prefix: ''
+  }
+
+  return config;
+};
