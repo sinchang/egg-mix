@@ -2885,9 +2885,9 @@ egg-utils@^2.2.0, egg-utils@^2.3.0:
     mkdirp "^0.5.1"
     utility "^1.13.1"
 
-"egg-view-art@https://github.com/1021683053/egg-view-art.git":
-  version "1.0.0"
-  resolved "https://github.com/1021683053/egg-view-art.git#fe89642d0bfbe1d3317bce7893f82fb5005f2d52"
+egg-view-art@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/egg-view-art/download/egg-view-art-1.0.1.tgz#eee3038ddcaebdb51f0ecf3ae60b57249208c802"
   dependencies:
     art-template "^4.12.1"
 

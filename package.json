@@ -7,7 +7,7 @@
     "axios": "^0.17.1",
     "egg": "^1.9.0",
     "egg-scripts": "^2.1.0",
-    "egg-view-art": "https://github.com/1021683053/egg-view-art.git",
+    "egg-view-art": "^1.0.1",
     "vue": "^2.5.6"
   },
   "devDependencies": {
